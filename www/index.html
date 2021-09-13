@@ -50,13 +50,15 @@
     </head>
     <body>
         <div class="app">
+            
             <h1>Apache</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
-                
+                   
             </div>
             <div>
+                
                 <!--
                 <ons-page>
                   <p>
@@ -79,6 +81,8 @@
                   </ons-toolbar>
                   <ons-list>
                     <ons-list-item>
+                        <button id = "cameraTakePicture">TAKE PICTURE</button>
+                        <img id = "myImage"></img>
                       <div class="center">
                         Enable cool feature
                         <label class="switch">
@@ -88,8 +92,9 @@
                             <div class="switch__handle"></div>
                           </div>
                         </label>
-                       
+                        
                         <button class="button button--outline">Button</button>
+                        
                       </div>
                       <div class="left">
                         <ons-switch></ons-switch>
