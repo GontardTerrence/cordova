@@ -21,7 +21,11 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
+<<<<<<< HEAD
       "cordova-plugin-camera": {}
+=======
++     "cordova-plugin-camera": {}
+>>>>>>> 62fcdeab46ee4961aa84c66efc49b2d39d890b03
     },
     "platforms": [
       "android",
